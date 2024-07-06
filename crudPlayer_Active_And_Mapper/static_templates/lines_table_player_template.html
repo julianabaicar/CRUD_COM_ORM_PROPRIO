@@ -1,0 +1,16 @@
+<tr>
+    <td>{{ID}}</td>
+    <td>{{NOME}}</td>
+    <td>{{USERNAME}}</td>
+    <td>{{EMAIL}}</td>
+    <td>
+        <form action="form_editPlayer.php" method="POST">
+            <input type="text" name="id" value="{{ID}}" hidden readonly>
+            <input type="submit" value="Editar">
+        </form>
+        <form action="form_deletePlayer.php" method="POST">
+            <input type="text" name="id" value="{{ID}}" hidden readonly>
+            <input type="submit" value="Deletar">
+        </form>
+    </td>
+</tr>

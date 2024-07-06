@@ -1,0 +1,61 @@
+ATIVIDADE 1 - CONSTRUIR CRUD'S COM ORM PRÓPRIO
+    SOLICITADO PELO PROFESSOR DA DICIPLINA DE PROGRAMAÇÃO III : 
+        MAYCON DOUGLAS DE MORAES | 29/02/2024 17:29:59
+
+    CRUD
+
+        Você deve desenvolver um CRUD (create, read, update, delete) utilizando PHP e SQLite. 
+        Com base no conteúdo apresentado nas duas ultimas aulas, você aprendeu como conectar 
+        a linguagem ao banco de dados, como podemos trabalhar com uma abordagem defensiva e 
+        também sobre ORM e os tipos de ORM existentes (Data Mapper e Active Record). 
+
+            --> Você deve criar uma tela HTML com formulário para CRIAÇÃO de um Jogador
+                    Esse formulário deve enviar os dados para o servidor e este deve inserir 
+                    o jogador no banco (tabela jogadores) utilizando a abordagem active record 
+                    e também utilizando a abordagem data mapper;
+            
+            --> Você deve criar uma tela HTML com formulário para EDITAR um Jogador existente
+                    Esse formulário deve enviar os dados para o servidor e este deve editar somente 
+                    os dados do jogador no banco (tabela jogadores) utilizando a abordagem active record 
+                    e também utilizando a abordagem data mapper. 
+                    Neste caso o formulário de edição já deve vir com os campos preenchidos, 
+                    menos o ID que precisa ser readonly;
+
+            --> Você deve criar uma tela HTML com formulário para Excluir um Jogador existente
+                    Esse formulário deve enviar os dados para o servidor e este deve excluir somente 
+                    os dados do jogador no banco (tabela jogadores) utilizando a abordagem active record 
+                    e também utilizando a abordagem data mapper. 
+                    Neste caso o formulário de exclusão já deve vir com os campos preenchidos e não deve 
+                    permitir alterar nada, essa tela deve seguir como uma confirmação de ação do usuário: 
+                    Ex: Deseja Realmente excluir esses dados ?
+
+            --> Você deve criar uma tela HTML com formulário para Excluir um Jogador existente
+
+            --> Por ultimo você deve implementar uma tela de listagem em HTML, essa tela vai ser 
+                uma tabela HTML que será renderizada com as linhas tabela populando os dados que 
+                estão na tabela de jogadores;
+
+            Estou deixando exemplo de duas classes base para representar o Jogador, que terá na tabela as 
+            seguintes colunas:
+
+                ​id
+                nome
+                username
+                email
+                senha
+                data_cadastro
+
+
+    Você deve criar o projeto em PHP, realizar a configuração do banco em SQLITE criando o banco em arquivo 
+    e deixando ele no seu projeto. E após implementar toda a atividade você vai zipar todo o projeto e anexar
+    nesta atividade. 
+
+
+    ------------------------------------Regras------------------------------------
+
+        ​--> Você deve evitar ao máximo misturar PHP com HTML;
+        --> Utilize sua criatividade para montar as telas;
+        --> O projeto precisa estar funcionando com os dois padrões de ORM, para isso 
+            a sugestão é fazer literalmente dois exemplos de CRUD;
+        --> Não é valido usar bibliotecas ou outros conectores, precisa utilizar PDO;
+        --> Plágios serão zerados;

@@ -1,0 +1,19 @@
+Story 1 editar
+    Dado que haja uma tela HTML contendo um formulário para edição dos dados de um jogador cadastrado no sistema
+    E que o formulário exibe os dados do jogador selecionado para Edição com excessão do ID que devera ser readonly
+    E que o formulário permita a alteração dos campos dos dados antes inseridos
+    Quando o usuário editar as informações
+    E clicar no botão "Salvar"
+    Então os dados deverão ser enviados ao servidor
+    E somente os dados do jogador no banco (tabela jogadores) serão alterados
+    E para isso deverá utilizar a abordagem Active RECORDS
+
+Story 2 editar
+    Dado que haja uma tela HTML contendo um formulário para edição dos dados de um jogador cadastrado no sistema
+    E que o formulário exibe os dados do jogador selecionado para Edição com excessão do ID que devera ser readonly
+    E que o formulário permita a alteração dos campos dos dados antes inseridos
+    Quando o usuário editar as informações
+    E clicar no botão "Salvar"
+    Então os dados deverão ser enviados ao servidor
+    E somente os dados do jogador no banco (tabela jogadores) serão alterados
+    E para isso deverá utilizar a abordagem Data mapper

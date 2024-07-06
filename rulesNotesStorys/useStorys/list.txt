@@ -1,0 +1,11 @@
+Story 1 listagem
+    Dado que haja uma tela HTML contendo de listagem de jogadores
+    Então a tela HTML será renderizadacom as linhas de uma tabela 
+    E a tabea devera estar populada com os dados inseridos na tabela jogadores
+    E para isso deverá utilizar a abordagem Active RECORDS
+
+Story 2 listagem
+    Dado que haja uma tela HTML contendo de listagem de jogadores
+    Então a tela HTML será renderizadacom as linhas de uma tabela 
+    E a tabea devera estar populada com os dados inseridos na tabela jogadores
+    E para isso deverá utilizar a abordagem Data mapper

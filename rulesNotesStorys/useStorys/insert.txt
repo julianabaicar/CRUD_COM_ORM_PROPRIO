@@ -1,0 +1,17 @@
+Story 1 inserir
+    Dado que haja uma tela HTML contendo um formulário para inserção de jogador
+    E que o formulário solicite o input dos seguintes dados: Nome; Username; Senha; Data de Cadastro;
+    Quando o usuário preencher os campos obrigatórios
+    E clicar no botão "Salvar"
+    Então os dados deverão ser enviados ao servidor
+    E ao Banco de dados para a tabela jogadores 
+    E para isso deverá utilizar a abordagem Active RECORDS
+
+Story 2 inserir
+    Dado que haja uma tela HTML contendo um formulário para inserção de jogador
+    E que o formulário solicite o input dos seguintes dados: Nome; Username; Senha; Data de Cadastro;
+    Quando o usuário inserir as informações nos campos obrigatórios 
+    E clicar no botão "Salvar"
+    Então os dados deverão ser enviados ao servidor
+    E ao Banco de dados para a tabela jogadores 
+    E para isso deverá utilizar a abordagem Data mapper
